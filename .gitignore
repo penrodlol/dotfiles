@@ -1,0 +1,18 @@
+# Secrets
+pi/agent/auth.json
+
+# Runtime / generated data
+pi/agent/sessions/
+pi/agent/memory/
+pi/agent/models-store.json
+
+# Installed packages (declared in agent/settings.json -> "packages")
+pi/agent/npm/
+
+# Downloaded binaries (pi fetches these automatically)
+pi/agent/bin/
+
+# Misc
+node_modules/
+.DS_Store
+*.log
